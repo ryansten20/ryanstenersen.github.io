@@ -1,0 +1,347 @@
+/* Global Styles */
+body {
+    background-image: url("background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 46px;
+    text-align: left;
+    margin: 40px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    padding: 0 15px;
+}
+
+nav li a {
+    font-size: 25px;
+    color: white;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+nav li a:hover {
+    color: #474747;
+    transition: all 0.4s ease 0s;
+}
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+.upper-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Specific Section/Page Styles */
+/* Contact Page Styles */
+#contact {
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #304050;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+#contact-containers {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Resume Page Styles */
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lists {
+    text-align: left;
+}
+
+.work-experience, .technical-skills, .education {
+    border-radius: 10px;
+}
+
+.work-experience, .technical-skills {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #304050;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+
+}
+
+.education {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #304050;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.resumeBtn {
+    background-color: #4CAF50;
+    font-family: Arial;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid #304050;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.resumeBtn:hover {
+    background-color: #1d571d;
+    cursor: pointer;
+}
+
+
+/* Index Page Styles */
+.index-div {
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #304050;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 60%;
+
+}
+
+.index-pic {
+    width: 60%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: right;
+
+}
+
+.div-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.index-top-left{
+
+    width: 40%;
+    padding-right: 10%;
+}
+.index-top-right{
+
+    width: 60%;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.4;
+}
+/* Portfolio Page Styles */
+.slide {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #304050;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.slide h2 {
+    text-align: center;
+}
+#intro{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-family: Arial;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+#prevBtn, #nextBtn {
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+#prevBtn:hover, #nextBtn:hover {
+    background-color: #333333;
+}
+
+.lexerimg{
+    width: 90%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.junkshimg{
+    width: 60%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    float: left;
+}
+
+.portfolio-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.resumeBtn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* Screen Size Adjustments */
+@media (max-width: 1200px) {
+    .div-main {
+        padding: 0 10px;
+    }
+
+    nav ul {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 36px;
+        margin: 20px;
+    }
+
+    nav li a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .div-main {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    #nav-menu li
+    {
+        display: block;
+        margin-right: 0;
+    }
+
+    #contact {
+        font-size: 18px;
+    }
+    .upper-container{
+        flex-direction: column;
+    }
+    .education{
+        flex-direction: column;
+    }
+}
+
+

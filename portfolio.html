@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Ryan Stenersen</title>
+<link rel = "icon"
+    type = "image/png"
+    sizes = "32 x 32" href="./icon.png" >
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <h1>Ryan Stenersen</h1>
+    <div>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="portfolio-btn">
+    <button id="prevBtn">&#8592;</button>
+        <h1>Projects</h1>
+    <button id="nextBtn">&#8594;</button>
+    </div>
+    <div class="project-div">
+
+        <div class="slide" id="intro">
+            <h2>Projects</h2>
+            <p>Check out some of my projects:</p>
+            <ul>
+                <li>Lexer in C</li>
+                <li>Junk Utility in Python</li>
+                <li>Junk Utility in Bash</li>
+            </ul>
+
+        </div>
+        <div class="slide">
+            <h2>Lexer</h2>
+            <p>This program uses .cci and .ccx files as the input. It then parses the file into categories and writes it to an output file. The 8 categories are</p>
+            <ul>
+                <li>Comment</li>
+                <li>String</li>
+                <li>Keyword</li>
+                <li>Character Literal</li>
+                <li>Operator</li>
+                <li>Numeric Literal</li>
+                <li>Identifier</li>
+                <li>Unknown</li>
+            </ul>
+            <p>Usage: ./lexer input_file output_file</p>
+            <p>Input File</p>
+            <img class="lexerimg" src="before.png" alt="Input File">
+            <p>Output File</p>
+            <img  class="lexerimg" src="lexer.png" alt="Output File">
+            <button class="resumeBtn"><a href="https://github.com/ryansten20/lexer">Repository Link</a></button>
+            <p> </p>
+            <p> </p>
+
+
+        </div>
+        <div class="slide">
+            <h2>Junk Utility in Bash</h2>
+            <p>This program creates a .junk directory in the home directory. Items that are junked are moved to .junk and can either be:</p>
+            <ul>
+                <li>Deleted</li>
+                <li>Retrieved from junk</li>
+                <li>Display the contents of junk</li>
+            </ul>
+            <p>This version is written using bash</p>
+            <img class="junkshimg" src="junksh.png" alt="Junk.sh">
+            <button class="resumeBtn"><a href="https://github.com/ryansten20/junk-bash">Repository Link</a></button>
+        </div>
+        <div class="slide">
+            <h2>Junk Utility in Python</h2>
+            <p>This program creates a .junk directory in the home directory. Items that are junked are moved to .junk and can either be:</p>
+            <ul>
+                <li>Deleted</li>
+                <li>Retrieved from junk</li>
+                <li>Display the contents of junk</li>
+            </ul>
+            <p>This version is written using python</p>
+            <img class="junkshimg" src="junkpython.png" alt="junk.py">
+            <button class="resumeBtn"><a href="https://github.com/ryansten20/junk-py">Repository Link</a></button>
+        </div>
+
+    </div>
+
+    <script src="website.js"></script>
+
+
+</body>
