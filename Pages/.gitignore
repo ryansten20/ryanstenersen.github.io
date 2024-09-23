@@ -1,0 +1,25 @@
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Ignore other large file types
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+*.tar.gz
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore build directories (if applicable)
+build/
+dist/
+
+# Ignore .env files (for sensitive configuration)
+.env
